@@ -46,7 +46,6 @@ proxy-groups:
 # 规则引擎（rules）
 # ========================
 rules:
-  - DST-PORT,53,DNS
   - RULE-SET,TEST / Domain,Test
   - RULE-SET,ChatGPT / Domain,ChatGPT
   - RULE-SET,Claude / Domain,Claude
